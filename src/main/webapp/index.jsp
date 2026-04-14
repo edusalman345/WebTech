@@ -1,0 +1,68 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" %>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+
+<style>
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Login</h2>
+
+    <form action="login" method="post">
+        <input type="text" name="username" placeholder="Enter Username" required>
+        <input type="password" name="password" placeholder="Enter Password" required>
+        <button type="submit">Login</button>
+    </form>
+    <a href="signup.jsp">Create new account</a>
+</div>
+
+</body>
+</html>
