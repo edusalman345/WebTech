@@ -193,7 +193,7 @@ http://localhost:8080/LogIn/
 
 ## 👨‍💻 Author
 
-**Salman**
+**Ahmad Salman**
 
 ---
 
